@@ -6,7 +6,7 @@ import { addTodo } from '../actions'
 
 export const Header = ({ addTodo }) => (
   <header className="header">
-    <h1>todos</h1>
+    <h1>ELENEO - Todos</h1>
     <TodoTextInput
       newTodo
       onSave={(text) => {
